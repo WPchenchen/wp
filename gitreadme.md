@@ -146,16 +146,94 @@ git init newrepo
 ```
 $ git add *.c
 $ git add README
-$ git commit -m  "<日志内容>"
+$ git commit -m  "<日志内容 提交说明>"
 ```
 
 以上命令将目录下以 .c 结尾及 README 文件提交到仓库中。
 
 > 临时提交到本地git
 
-git log 查看提交日志
+git log 查看提交日志 
+
+![image-20241009144923616](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241009144923616.png)
+
+## git回退
+
+git reset --hard <commit ID> 上图中有显示 （清空）
+
+​				--soft
+
+​				--mixed 两种模式
+
+commit提交后增加分支，可进行分支合并等
+
+## 分支branch （切换分支）
+
+git branch 0.2
+
+git branch -a 
+
+git checkout 0.2
+
+git checkout master
+
+git merge 0.2 
 
 
+
+# git创建github创建初始化
+
+git init 
+
+git add .
+
+git commit -m "init"
+
+git branch -M main 主分支
+
+git remote add origin <http 自己的仓库>
+
+git push -u origin main 上传
+
+
+
+
+
+github中拉取仓库，添加分支
+
+git clone <http>
+
+git remote -v  自己仓库的连接
+
+git remote add upstream <htpp>别人的代码库
+
+git checkout -b <分支名> 切换分支
+
+
+
+git add .
+
+gti commint -m "<>"
+
+git push -u origin <分支>
+
+# ######顶级细节教程
+
+[git、github 保姆级教程入门，工作和协作必备技术，github提交pr - pull request_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1s3411g7PS/?spm_id_from=333.337.search-card.all.click)
+
+## VScode 使用
+
+修改环境变量    
+
+![img](https://i-blog.csdnimg.cn/blog_migrate/296f7cebb61873ea675940c19c86ae96.png#pic_center)
+
+![image-20241009150453011](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241009150453011.png)
+
+修改vscode的路径配置
+
+vscode终端内容修改，否则终端找不到git
+
+![image-20241009150555415](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241009150555415.png)
 
 
 
