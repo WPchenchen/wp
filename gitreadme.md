@@ -193,7 +193,9 @@ git init
 
 git add .
 
-git commit -m "init"
+#先当前项目提交，并备注
+
+git commit -m "内容备注"  
 
 git branch -M main 主分支
 
@@ -325,3 +327,5 @@ $ git config --global user.email test@runoob.com
 ```
 
 如果去掉 **--global** 参数只对当前仓库有效。
+
+修改内容！0.3
