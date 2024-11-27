@@ -193,7 +193,7 @@ git init
 
 git add .
 
-#先当前项目提交，并备注
+#先当前项目提交，并备注  当前分支内容变更后就要commit
 
 git commit -m "内容备注"  
 
@@ -329,3 +329,4 @@ $ git config --global user.email test@runoob.com
 如果去掉 **--global** 参数只对当前仓库有效。
 
 修改内容！0.3
+
