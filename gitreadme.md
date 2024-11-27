@@ -169,9 +169,13 @@ commit提交后增加分支，可进行分支合并等
 
 ## 分支branch （切换分支）
 
+#创建分支
+
 git branch 0.2
 
 git branch -a 
+
+#切换
 
 git checkout 0.2
 
@@ -191,19 +195,19 @@ git commit -m "init"
 
 git branch -M main 主分支
 
-git remote add origin <http 自己的仓库>
+git remote add origin <http 自己的仓库>   #等于创建一个网盘，知道上传到哪里
 
-git push -u origin main 上传
-
-
+git push -u origin <main分支名> 上传
 
 
+
+## #参与别人的开源项目
 
 github中拉取仓库，添加分支
 
-git clone <http>
+git clone  <http>   .    #克隆仓库代码
 
-git remote -v  自己仓库的连接
+git remote -v  查看仓库连接
 
 git remote add upstream <htpp>别人的代码库
 
@@ -211,11 +215,15 @@ git checkout -b <分支名> 切换分支
 
 
 
+```
 git add .
 
 gti commint -m "<>"
 
 git push -u origin <分支>
+```
+
+
 
 # ######顶级细节教程
 
