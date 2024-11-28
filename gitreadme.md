@@ -199,11 +199,15 @@ git commit -m "内容备注"
 
 git branch -M main 主分支
 
-git remote add origin <http 自己的仓库>   #等于创建一个网盘，知道上传到哪里
+#等于创建一个网盘，知道上传到哪里
 
-git push -u origin <main分支名> 上传
+git remote add origin <http 自己的仓库>   
 
+git push -u origin <main分支名> 上传必须要commit一下
 
+#拉取分支
+
+git pull -u origin <分支>  再从新建分支，保证当前是最新的
 
 ## #参与别人的开源项目
 
