@@ -99,7 +99,19 @@ runoob
 ssh-keygen -t rsa -b 4096 -C "your.email@example.com"
 ```
 
+![image-20241128143610748](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241128143610748.png)
+
+
+
+
+
+![image-20241128143652946](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241128143652946.png)
+
 按提示完成生成过程，然后将生成的公钥添加到相应的平台。
+
+验证
+
+ssh -T  https://github.com/WPchenchen/Git-Notes.git
 
 ## 验证安装
 
