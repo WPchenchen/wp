@@ -183,9 +183,20 @@ git checkout 0.2
 
 git checkout master
 
+#合并
+
 git merge 0.2 
 
+# 修改remote
 
+方式1、直接修改：
+
+git remote set-url origin xxxxx.git
+
+方式2、先删后加 ：
+
+git remote rm origin
+git remote add origin xxxxx.git
 
 # git创建github创建初始化
 
@@ -203,7 +214,7 @@ git branch -M main 主分支
 
 #等于创建一个网盘，知道上传到哪里
 
-git remote add origin <http 自己的仓库>   
+git remote add origin <http 自己的仓库>      
 
 git push -u origin <main分支名> 上传必须要commit一下
 
